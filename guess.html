@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initial</title>
+    <style>
+        body {
+            height: 100 vh;
+            background: gray;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+
+<body style="text-align: center;">
+    <div class="guessTheNumber">
+        <h2 class="Message">Start the guess</h2>
+        <p class="lifeMes">Lives Left: <span class='life' style="font-size:30px">20</span></p>
+        <p class="scoreMes">Your score in this game: <span class="score" style="font-size:30px">20</span></p>
+        <p class="highScoreMes">High Score: <span class="highScore" style="font-size:30px">0</span></p>
+        <p class="hintMes"></p>
+        <button id="guessNum" class="btn btn-primary" style="font-size: 100px; padding: 20px 100px;">0</button>
+        <br>
+        <div id="ngb" class="btn btn-danger" hidden>
+            <button class='btn btn-light'>New game</button>
+        </div>
+        <br>
+        <br>
+        <div class="btn btn-dark">
+            <button id="p1">+ 1</button>
+            <button id="m1">- 1</button>
+            <button id="p2">+ 2</button>
+            <button id="m2">- 2</button>
+            <button id="p5">+ 5</button>
+            <button id="m5">- 5</button>
+            <button id="p10">+ 10</button>
+            <button id="m10">- 10</button>
+            <button id="p20">+ 20</button>
+            <button id="m20">- 20</button>
+            <button id="p50">+ 50</button>
+            <button id="m50">- 50</button>
+            <button id="p100">+ 100</button>
+            <button id="m100">- 100</button>
+            <button id="p200">+ 200</button>
+            <button id="m200">- 200</button>
+            <button id="p500">+ 500</button>
+            <button id="m500">- 500</button>
+        </div>
+        <br><br><br>
+        <hr>
+    </div>
+
+    <div class="developer">
+        <h3 class='aboutThe'>
+            About the developer
+        </h3>
+        <div class="pic">
+            <img src="https://i.ibb.co/t2VXQD9/pga.jpg" height="500px">
+        </div>
+        <div class='notHeading'>
+            <p class="helloPart">
+                Hello it's me Prabas Gokarna Adhikari. Currently a graduate student, majoring computer science engineering at the best engineering school in Nepal, <span class="pec">Pulchowk Engineering Campus</span> situated at Lalitpur district in Kathmandu
+                valley.
+            </p>
+            <div class="footer">
+                <p>If you wanna reach me, feel free to email me at: <span class="email">prabaruck@gmail.com</span> </p>
+                <p>Or you can contact me at <span class="phoneNumber">+977 9868834768</span></p>
+                <p class="note">Note: I prefer text message on my mobile phone.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="server.js"></script>
+
+
+</body>
+
+</html>
